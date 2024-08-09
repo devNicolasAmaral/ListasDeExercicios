@@ -1,8 +1,7 @@
 #include <iostream>
 #include <iomanip>
 
-int main(void)
-{
+int main(void) {
     float fahrenheit;
     float kelvin;
 

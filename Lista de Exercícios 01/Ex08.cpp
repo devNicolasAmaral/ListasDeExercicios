@@ -2,8 +2,7 @@
 #include <iomanip>
 #include <math.h>
 
-int main(void)
-{
+int main(void) {
     const float pi = 3.141516;
     float raio;
     float altura;
