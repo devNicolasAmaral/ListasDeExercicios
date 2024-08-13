@@ -19,20 +19,43 @@ int main(void)
     unidade = n % 10;    
 
     
-
     if (centena == 1) {
-        std::cout << centena << "centena";
-
+        if (dezena >= 1 && unidade >= 1) {
+            std::cout << centena << " centena, ";    
+        } else if (dezena == 0 && unidade == 0) {
+            std::cout << centena << " centena.";     
+        }else if (dezena == 0 || unidade == 0) {
+            std::cout << centena << " centena e ";  
+        }
+    } else if (centena > 1 ) {
+        if (dezena >= 1 && unidade >= 1) {
+            std::cout << centena << " centenas, ";    
+        } else if (dezena == 0 && unidade == 0) {
+            std::cout << centena << " centenas.";     
+        } else if (dezena == 0 || unidade == 0) {
+            std::cout << centena << " centenas e ";  
+        }
     }
+
     if (dezena == 1) {
-        std::cout << dezena << "dezena";
-    } 
-    if (unidade) {
-        std::cout << unidade << "unidade";
+        if (unidade >= 1) {
+            std::cout << dezena << " dezena e ";    
+        } else if (unidade == 0) {
+            std::cout << dezena << " dezena.";  
+        }
+    } else if (dezena > 1 ) {
+        if (unidade >= 1) {
+            std::cout << dezena << " dezenas e ";    
+        } else if (unidade == 0) {
+            std::cout << dezena << " dezenas.";  
+        }
     }
-   
 
+    if (unidade == 1) {
+        std::cout << unidade << " unidade.";    
+    } else if (unidade > 1) {
+        std::cout << unidade << " unidades.";    
+    }
 
-    
     return 0;
 }
