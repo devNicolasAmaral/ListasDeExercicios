@@ -1,7 +1,6 @@
 #include <iostream>
 
-int main(void)
-{
+int main(void) {
     int n;
     int centena;
     int dezena;

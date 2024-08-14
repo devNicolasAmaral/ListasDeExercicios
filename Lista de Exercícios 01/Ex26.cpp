@@ -1,8 +1,7 @@
 #include <iostream>
 #include <string>
 
-int main(void)
-{
+int main(void) {
     std::string nome1;
     std::string nome2;
     std::string nome3;

@@ -1,7 +1,6 @@
 #include <iostream>
 
-int main(void)
-{
+int main(void) {
     char turno;
 
     std::cout << "Informe o turno que estuda (M para matutino, V para vespertino ou N para noturno): ";

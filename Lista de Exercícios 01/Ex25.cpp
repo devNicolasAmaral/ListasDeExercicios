@@ -1,7 +1,6 @@
 #include <iostream>
 
-int main(void)
-{
+int main(void) {
     char pergunta1;
     char pergunta2;
     char pergunta3;
